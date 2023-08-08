@@ -1,0 +1,147 @@
+
+ /*      #155263;  */
+/*        #ff6f3c;  */
+ /*      #ff9a3c;  */
+/*      #ffc93c;  */
+
+body {
+    background-color: #ffc93c;
+    color: rgb(240, 234, 214);
+}
+
+#calcbox {
+    background-color:rgb(40, 40, 43);
+    width:27%;
+    margin: 0px auto;
+    border-radius: 8%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    height:550px;
+
+}
+
+#allbuttons {
+    background-color: rgb(53, 57, 53);
+    flex:3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:5 20px;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    margin:10px;
+
+}
+
+#display {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titles {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.icon {
+    height:30px;
+    width:30px;
+}
+
+#display > h2 {
+    padding-top:5px;
+    padding-left:20px;
+    flex:1;
+    color: rgb(240, 234, 214);
+    
+}
+
+#showingcalcs {
+    background-color: rgba(3, 94, 0,0.4);
+    flex:3;
+    text-align: right;
+    padding:15px;
+
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons > h2 {
+    text-align: center;
+    flex: 3;
+}
+
+
+.buttons > h2:hover {
+    transform: scale(1.2); 
+    color:lightcoral; 
+}
+
+.symbol {
+    padding:0px;
+    background-color: rgb(240, 234, 214);
+    border-radius: 100%;
+    flex:1;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 3px;
+    color:rgb(53, 57, 53);
+
+}
+
+.plus {
+    padding-top: 6px;
+}
+
+.symbol:hover {
+    background-color: #C2DEDC;
+    transform: scale(1.2);
+    color:lightcoral; 
+
+}
+
+#copywright {
+    padding-top:20px;
+    text-align: center;
+    color: rgba(53, 57, 53,0.5);
+}
+
+.equalto:hover {
+    background-color: rgb(118, 255, 122);
+    transform: scale(1.2); 
+
+}
+
+.equalto {
+    background-color:#FFA836;
+    border-radius: 100%;
+    flex:1;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+.back {
+    color: rgb(210, 31, 60);
+}
+
+.back:hover {
+    color: pink;
+}
